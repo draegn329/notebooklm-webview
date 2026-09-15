@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Notebook Base with Rounded Corners -->
+    <path
+        android:pathData="M34,26 L66,26 C72,26 76,30 76,36 L76,74 C76,80 72,84 66,84 L34,84 C30,84 27,81 27,77 L27,33 C27,29 30,26 34,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="27"
+                android:startY="26"
+                android:endX="76"
+                android:endY="84"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#2A2F45" />
+                <item android:offset="1.0" android:color="#181B2A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Notebook Spine / Binding Accent -->
+    <path
+        android:pathData="M33,26 L36,26 L36,84 L33,84 C30,84 28,81.5 28,78 L28,32 C28,28.5 30,26 33,26 Z"
+        android:fillColor="#4F46E5" />
+
+    <!-- Notebook Top Page Trim -->
+    <path
+        android:pathData="M42,34 L68,34"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M42,41 L62,41"
+        android:strokeColor="#475569"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+
+    <!-- Center NotebookLM / Gemini Sparkle Emblem -->
+    <path
+        android:pathData="M54,47 C54,53.5 50,57.5 44,57.5 C50,57.5 54,61.5 54,68 C54,61.5 58,57.5 64,57.5 C58,57.5 54,53.5 54,47 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="44"
+                android:startY="47"
+                android:endX="64"
+                android:endY="68"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#67E8F9" />
+                <item android:offset="0.5" android:color="#A855F7" />
+                <item android:offset="1.0" android:color="#EC4899" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Secondary Small Sparkle Accent -->
+    <path
+        android:pathData="M66,45 C66,47.5 64.5,49 62,49 C64.5,49 66,50.5 66,53 C66,50.5 67.5,49 70,49 C67.5,49 66,47.5 66,45 Z"
+        android:fillColor="#FDE047" />
+
+    <!-- Bottom Page Lines -->
+    <path
+        android:pathData="M42,74 L68,74"
+        android:strokeColor="#334155"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+
+</vector>

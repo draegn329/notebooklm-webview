@@ -1,0 +1,6 @@
+{
+  "name": "NotebookLM",
+  "description": "Full-screen WebView app for NotebookLM targeting Android 9 with legacy WebView API compatibility",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
